@@ -1,5 +1,5 @@
 [build]
-  base = ""
+  base = "packages/algolia-netlify"
   command = "NODE_ENV=production yarn build"
   publish = "build/site"
   functions = "build/functions"
